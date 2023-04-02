@@ -1,0 +1,49 @@
+@import 'header';
+@import 'home';
+@import 'footer';
+
+
+
+.wpcf7-not-valid{
+    border: 1px solid red !important;
+}
+
+li{
+    list-style-type: none!important;
+}
+a:visited{
+    color: unset;
+}
+a{
+    text-decoration: unset;
+}
+.post, .page {
+    margin: 0;
+}
+
+
+@font-face {
+    font-family: 'FutuBk';
+    src: url(../fonts/FutuBk.ttf);
+    }
+    @font-face {
+        font-family: 'Roboto';
+        src: url(../fonts/Roboto-Light.ttf);
+        }
+        @font-face {
+            font-family: 'PlayfairDisplay';
+            src: url(../fonts/PlayfairDisplay-VariableFont_wght.ttf);
+            }
+            @font-face {
+                font-family: 'FutuMd';
+                src: url(../fonts/FutuMd.ttf);
+                }
+
+
+    html, body {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+        scroll-behavior: smooth;
+        appearance: none;
+        
+        }

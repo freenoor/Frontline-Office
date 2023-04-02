@@ -1,0 +1,136 @@
+footer{
+    background: #121212;
+    position: relative;
+    padding: 65px 0;
+    @media(max-width: 991.98px){
+        padding-bottom: 0;
+    }
+    .logo-footer{
+        section{
+            @media(max-width: 375.98px){
+                margin-bottom: 30px!important;
+            }
+        img{
+            @media(max-width: 375.98px){
+                width: 170px;
+            }
+        }
+    }
+}
+    .footer-4{
+        @media(max-width: 991.98px){
+            margin-bottom: 30px;
+        }
+    }
+    .footersection4{
+        section{
+            ul{
+                padding-left: 0px;
+                @media(max-width: 991.98px){
+                    display: flex;
+                    margin: 0;
+                }
+                li{
+                    color: white;
+                    font-size: 25px;
+                    margin-bottom: 20px;
+                    @media(max-width: 991.98px){
+                        margin: 0 15px;
+                    }
+                    &:first-child{
+                        @media(max-width: 991.98px){
+                            margin-left: 0;
+                        }
+                    }
+                    i{
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+    .footersection1{
+        section{
+            &:first-child{
+            margin-bottom: 50px;
+        img{
+            height: 100px!important;
+            object-fit: cover;
+        }
+    }
+    }
+}
+    .footersection3{
+        h3{
+        color: #ccbd99!important;
+        font-weight: 400;
+        letter-spacing: .03em;
+        position: relative;
+        font-family: 'FutuMd';
+        font-size: 15px;
+        margin-bottom: 20px;
+        text-transform: uppercase; 
+        @media(max-width: 375.98px){
+            font-size: 13px;
+        }
+        &:before{
+            content: "\2192";
+                    position: relative;
+                    transition: .6s ease-in-out;
+                    -webkit-transition: .6s ease-in-out;
+                    -moz-transition: .6s ease-in-out;
+                    -ms-transition: .6s ease-in-out;
+                    -o-transition: .6s ease-in-out;
+                    opacity: 1;
+                    margin-right: 5px;
+        }
+}
+    }
+    .footer-4{
+        h1{
+        font-family: 'PlayfairDisplay';
+        line-height: 1.2;
+        font-size: 20px;
+        color: #fff;
+        margin-bottom: 25px;
+        font-weight: 700;
+        letter-spacing: .03em;
+    }
+    section{
+        h1,p{
+            color: white;
+            font-size: 15px!important;
+            font-weight: unset!important;
+            font-family: 'FutuMd';
+            @media(max-width: 991.98px){
+                font-size: 14px!important;
+            }
+        }
+        h1{
+            color: #ccbd99;
+            a{
+                margin-left: 5px;
+                color: white!important;
+                font-family: 'FutuMd';
+            }
+        }
+        .button4{
+            a{
+                color: #ccbd99 !important;
+                font-family: 'FutuMd';
+                &:after{
+                    content: "\2192";
+                    position: absolute;
+                    transition: .6s ease-in-out;
+                    -webkit-transition: .6s ease-in-out;
+                    -moz-transition: .6s ease-in-out;
+                    -ms-transition: .6s ease-in-out;
+                    -o-transition: .6s ease-in-out;
+                    opacity: 1;
+                    margin-left: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
